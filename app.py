@@ -58,7 +58,7 @@ def load_quiz(filename=fname):
 
 # --- App ---
 st.title("📘 Quiz Viewer with LaTeX Support")
-
+quiz_data = []
 quiz_data = quiz_json
 
 # Iterate over questions
